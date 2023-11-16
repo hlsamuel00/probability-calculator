@@ -1,7 +1,7 @@
 import unittest
 import prob_calculator
 
-prob_calculator.random.seed(95)
+prob_calculator.seed(95)
 class UnitTests(unittest.TestCase):
     maxDiff = None
     def test_hat_class_contents(self):
